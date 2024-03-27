@@ -26,7 +26,7 @@ jobs:
         with:
           repository: "jeffhandley/github-triage-actions"
           path: ./actions
-          ref: cd16cd2aad6ba2da74bb6c6f7293adddd579a90e
+          ref: 5b9ae07f2e85a0da788e905df009b15ce95cdcd8
       - name: Install Actions
         run: npm install --production --prefix ./actions
       - name: Run Locker
